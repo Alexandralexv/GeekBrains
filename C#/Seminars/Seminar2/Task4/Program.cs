@@ -16,7 +16,6 @@ if (number > 99)
     }
 
     Console.WriteLine(number % 10);
-
 }
 else
 {
