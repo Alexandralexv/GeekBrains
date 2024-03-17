@@ -6,11 +6,19 @@
 // 2 => -2, -1, 0, 1, 2
 Console.WriteLine("Введите целое число");
 int N = Convert.ToInt32(Console.ReadLine());
-int i = -N;
 
-while (i < N)
+if (N > 0)
 {
-    Console.Write(i + ", ");
-    i++;
+    int i = -N;
+
+    while (i < N)
+    {
+        Console.Write(i + ", ");
+        i++;
+    }
+    Console.Write(i);
 }
-Console.Write(i);
+else
+{
+    Console.WriteLine("Некорректный ввод!");
+}
