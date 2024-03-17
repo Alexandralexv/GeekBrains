@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 3: Напишите программу, которая на вход принимает число и
+// выдаёт, является ли число чётным.
+// 4 => да
+// -3 => нет
+// 7 => нет
+
+Console.WriteLine("Введите число");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2 == 0)
+{
+    Console.WriteLine("да");
+}
+else
+{
+    Console.WriteLine("нет");
+}
