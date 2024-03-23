@@ -5,3 +5,14 @@
 // [1 -5 6]
 // => [-1 5 -6]
 
+int[] arr = new int[10] {-10, 7, 10, -1, 0, 3, 4, -5, 9, -2};
+
+for (int i = 0; i < arr.Length; i++)
+{
+    arr[i] *= -1;
+}
+
+for (int i = 0; i < arr.Length; i++)
+{
+    Console.Write(arr[i] + " ");
+}
