@@ -4,3 +4,17 @@
 // Пример
 // [1 3 2 4 2 3] => [3 6 8]
 // [2 3 1 7 5 6 3] => [6 18 5] (элемент 7 не имеет пары)
+
+int[] arr = { 2, 3, 1, 7, 5, 6, 3};
+
+int[] result = new int[arr.Length/2];
+
+for (int i = 0; i < result.Length; i++)
+{
+    result[i] = arr[i] * arr[arr.Length-1-i];
+}
+
+for (int i = 0; i < result.Length; i++)
+{
+    Console.Write(result[i] + " ");
+}
