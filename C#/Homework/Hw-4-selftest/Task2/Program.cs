@@ -56,3 +56,4 @@ void CallingFunctions() // Функция вызывающая другие фу
 }
 
 CallingFunctions();
+
