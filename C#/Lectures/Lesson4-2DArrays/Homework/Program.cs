@@ -9,52 +9,52 @@
 // размера (не больше, чем количество элементов)
 
 
-string GetNumberFromString(string str)
-{
-    string letters = "";
-    foreach (char num in str)
-    {
-        if (char.IsAsciiDigit(num) == true)
-        {
-            letters += num;
-        }
-    }
-    return letters;
-}
+// string GetNumberFromString(string str)
+// {
+//     string letters = "";
+//     foreach (char num in str)
+//     {
+//         if (char.IsAsciiDigit(num) == true)
+//         {
+//             letters += num;
+//         }
+//     }
+//     return letters;
+// }
 
-int GetCountNumberFromString(string str)
-{
-    int k =0;
-    foreach (char num in str)
-    {
-        if (char.IsAsciiDigit(num) == true)
-        {
-            k++;
-        }
-    }
-    return k;
-}
+// int GetCountNumberFromString(string str)
+// {
+//     int k =0;
+//     foreach (char num in str)
+//     {
+//         if (char.IsAsciiDigit(num) == true)
+//         {
+//             k++;
+//         }
+//     }
+//     return k;
+// }
 
-void TurnToArray(string letters, int count)
-{
-    char[] arr = new char[count];
-    for (int i = 0; i < count; i++)
-    {
-        foreach (var i in letters)
-        {
-            arr[i] += i;
-        }
-    }
+// void TurnToArray(string letters, int count)
+// {
+//     char[] arr = new char[count];
+//     for (int i = 0; i < count; i++)
+//     {
+//         foreach (var i in letters)
+//         {
+//             arr[i] += i;
+//         }
+//     }
 
-    return arr;
-}
+//     return arr;
+// }
 
-string str = Console.ReadLine();
+// string str = Console.ReadLine();
 
-string result = GetNumberFromString(str);
-Console.WriteLine(result);
+// string result = GetNumberFromString(str);
+// Console.WriteLine(result);
 
-int result2 = GetCountNumberFromString(str);
-Console.WriteLine(result2);
+// int result2 = GetCountNumberFromString(str);
+// Console.WriteLine(result2);
 
-Console.WriteLine(TurnToArray(result, result2));
+// Console.WriteLine(TurnToArray(result, result2));
