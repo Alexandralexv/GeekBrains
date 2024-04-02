@@ -5,14 +5,21 @@
 // Пример
 // [‘a’, ‘b’, ‘c’, ‘d’] => “abcd”
 
-
-char[] chars = {'a', 'b', 'e', 'd'};
-
-string strResult = string.Empty;
-
-for (int i = 0; i < chars.Length; i++)
+string CharsArrayToString(char[] chars)
 {
-    strResult += chars[i];
+    string strResult = string.Empty;
+
+    for (int i = 0; i < chars.Length; i++)
+    {
+        strResult += chars[i];
+    }
+
+    return strResult;
 }
 
+char[] chars = { 'a', 'b', 'e', 'd' };
+
+string strResult = CharsArrayToString(chars);
+
 Console.WriteLine(strResult);
+
