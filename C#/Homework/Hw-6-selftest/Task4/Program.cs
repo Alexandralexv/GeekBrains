@@ -15,7 +15,7 @@ void SupplyReversal(string hello)
         res += helloSplit[i] + " ";
     }
 
-    Console.WriteLine(res);
+    Console.WriteLine(res.TrimEnd());
 }
 
 string hello = "Hello my world";
