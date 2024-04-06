@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая будет принимать на вход число и
+// возвращать сумму его цифр.
+// Указание
+// Использовать рекурсию.
+// Пример
+// 123 => 6
+// 63 => 9
+
+int SumDigit(int num)
+{
+	if(num == 0) return 0;
+	return (num % 10) + SumDigit(num / 10);
+}
+
+Console.WriteLine(SumDigit(545));
