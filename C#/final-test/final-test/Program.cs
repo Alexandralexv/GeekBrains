@@ -43,6 +43,7 @@ void PrintArray(string[] array)
     Console.WriteLine("]");
 }
 
+
 // // Console.WriteLine(LinesLengthLessthree(arr));
 
 // string[] arr0 = { "Hello", "2", "world", ":-)" };
