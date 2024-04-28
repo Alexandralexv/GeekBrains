@@ -44,11 +44,11 @@ void PrintArray(string[] array)
 }
 
 
-// // Console.WriteLine(LinesLengthLessthree(arr));
+// Console.WriteLine(LinesLengthLessthree(arr));
 
-// string[] arr0 = { "Hello", "2", "world", ":-)" };
-// string[] arr1 = { "1234", "1567", "-2", "computer science" };
-// string[] arr2 = { "Russia", "Denmark", "Kazan" };
+string[] arr0 = { "Hello", "2", "world", ":-)" };
+string[] arr1 = { "1234", "1567", "-2", "computer science" };
+string[] arr2 = { "Russia", "Denmark", "Kazan" };
 
 // string[] arrNew0 = CreateNewArray(arr0);
 // PrintArray(arrNew0);
