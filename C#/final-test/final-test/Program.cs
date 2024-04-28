@@ -50,9 +50,9 @@ string[] arr0 = { "Hello", "2", "world", ":-)" };
 string[] arr1 = { "1234", "1567", "-2", "computer science" };
 string[] arr2 = { "Russia", "Denmark", "Kazan" };
 
-// string[] arrNew0 = CreateNewArray(arr0);
-// PrintArray(arrNew0);
-// string[] arrNew1 = CreateNewArray(arr1);
-// PrintArray(arrNew1);
-// string[] arrNew2 = CreateNewArray(arr2);
-// PrintArray(arrNew2);
+string[] arrNew0 = CreateNewArray(arr0);
+PrintArray(arrNew0);
+string[] arrNew1 = CreateNewArray(arr1);
+PrintArray(arrNew1);
+string[] arrNew2 = CreateNewArray(arr2);
+PrintArray(arrNew2);
