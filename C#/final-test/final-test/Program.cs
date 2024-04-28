@@ -11,20 +11,20 @@
     return k;
 }
 
-// string[] CreateNewArray(string[] array)
-// {
-//     int k = 0;
-//     string[] newArray = new string[LinesLengthLessthree(array)];
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (array[i].Length <= 3)
-//         {
-//             newArray[k] = array[i];
-//             k++;
-//         }
-//     }
-//     return newArray;
-// }
+string[] CreateNewArray(string[] array)
+{
+    int k = 0;
+    string[] newArray = new string[LinesLengthLessthree(array)];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            newArray[k] = array[i];
+            k++;
+        }
+    }
+    return newArray;
+}
 
 // void PrintArray(string[] array)
 // {
